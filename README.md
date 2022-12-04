@@ -19,3 +19,4 @@
 > ./filename
 > 請輸入Parent和Child的亂數種子和0(基本功能)
 > 0 0 0
+```
