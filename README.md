@@ -1,4 +1,4 @@
-# Fork-and-SharedMemory-Exercise
+# fork-and-shared-memory-exercise
 ## 利用fork()與POSIX shared memory製作的Battleship對戰小遊戲
 ### 遊戲介紹
 這個遊戲是模擬船艦對戰的過程由一個父行程產生一個子行程，然後雙方分別在自己一個4×4的地區中任意擺放一艘2×1的砲艇，輪流炸對方。模擬過程中，4×4的地區左上角座標為(0,0)，右下角座標為(3,3)。程式從命令列讀入兩個參數，第一個參數p1與第二個參數p2用來分別指定父行程與子行程的亂數種子(0～99的整數)
